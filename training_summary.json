@@ -1,0 +1,61 @@
+{
+  "models_saved": [
+    "random_forest_model.pkl",
+    "xgboost_model.pkl",
+    "lstm_model.pth"
+  ],
+  "scaler": "scaler.pkl",
+  "features": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "RSI_14",
+    "MACD_Line",
+    "MACD_Signal",
+    "MACD_Histogram",
+    "BB_Upper_20",
+    "BB_Middle_20",
+    "BB_Lower_20",
+    "BB_Bandwidth_20",
+    "MA_5",
+    "MA_10",
+    "MA_20",
+    "MA_50",
+    "ATR_14",
+    "Daily_Return",
+    "Log_Return",
+    "HL_Spread",
+    "sentiment_score"
+  ],
+  "performance": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.5004269854824936,
+      "Precision": 0.5157318741450069,
+      "Recall": 0.6200657894736842,
+      "F1-Score": 0.5631067961165048
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.4927412467976089,
+      "Precision": 0.5108359133126935,
+      "Recall": 0.5427631578947368,
+      "F1-Score": 0.5263157894736842
+    },
+    {
+      "Model": "LSTM",
+      "Accuracy": 0.49612403100775193,
+      "Precision": 0.5139275766016713,
+      "Recall": 0.6099173553719008,
+      "F1-Score": 0.5578231292517006
+    }
+  ],
+  "data_info": {
+    "total_samples": 5855,
+    "training_samples": 4684,
+    "testing_samples": 1171,
+    "feature_count": 22
+  }
+}
