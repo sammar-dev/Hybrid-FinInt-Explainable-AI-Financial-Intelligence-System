@@ -36,9 +36,12 @@ Stocks
 
 AAPL, TSLA, MSFT, GOOGL, META, NVDA, AMZN, NFLX
 
+
 Crypto
 
 BTC-USD, ETH-USD, SOL-USD, DOGE-USD, BNB-USD, XRP-USD, ADA-USD
+
+
  Architecture
 Data Sources
  ├── yfinance (stocks + crypto)
